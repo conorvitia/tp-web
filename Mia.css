@@ -1,0 +1,39 @@
+body
+{
+    box-sizing: border-box;
+}
+
+header
+{
+    height: auto;
+    width: 100%;
+}
+header h1
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header nav ul
+{
+ list-style: none;
+ display: flex;
+ align-items: center;
+ justify-content:space-between;
+ 
+ 
+}
+header nav ul li
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 20px;  
+}
+
+header nav ul li 
+{
+    position: relative;
+
+}
+
+
