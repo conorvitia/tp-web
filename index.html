@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <body>
+        <h2>what can javascript ?</h2>
+        <p id="demo" style="display: none;">javascript can change html content </p>
+        <button type="button" onclick='document.getElementById("demo").inerHTML ="Hello javascript"''>click me</button>
+        <button type="button" onclick='document.getElementById("demo").style.display="none" ''>Click Me !</button>
+        <button type="button" onclick='document.getElementById("demo").style.display="block"'>Affhicher moi !</button>
+      <h1>wheter a number is prime</h1>
+      Enter the number :<input type="text" name="n" id ="N"/>
+      <hr color="cyan">
+      <br>
+      <center ><button onclick="Prime()">Check</button></center>
+
+        <script>
+            function Prime()
+            {
+                var i,flag=0,number;
+                number= Number(document.getElementById("N").value);
+                for (i=1; i<= number/2; i++)
+            {
+                if(number%i== 0)
+            {
+                flag =1;
+                break;
+               
+            }
+            }
+            if(flag == 1)
+            {
+                window.alert(number + "-the input number is prime");
+            }
+            else
+            {
+                window.alert(number +" the input number is not prime");
+            }
+            }
+        </script>
+    </body>
+
+</html>
